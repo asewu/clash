@@ -35,6 +35,13 @@ proxies:
   - {name: 🇨🇳 馃嚬馃嚰TW_8233, server: twn04.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: e5c04139-0d1b-4d09-8718-78feeeaaa057, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: twn04.ip4.ddns.acg.photos}}
   - {name: 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb, server: 101.32.220.250, port: 1080, type: vmess, uuid: 13af5ad2-dba3-430e-91e2-56acb2d4675d, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 101.32.220.250}}
   - {name: 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb, server: 15.152.54.67, port: 21326, type: vmess, uuid: 0e5c81c2-b640-48e4-d6a2-18f7db986813, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国, server: 51.79.64.57, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: yPAVG3dkJyPY}
+  - {name: ‪捷克, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CZ_130, server: 89.187.168.39, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇭🇰 CN-HK_110, server: n37.boom.party, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 143073:Cz8aOi, obfs-param: download.windowsupdate.com}
+  - {name: 🇭🇰 CN-HK_91, server: ntemp19.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 143073:Cz8aOi, obfs-param: download.windowsupdate.com}
+  - {name: 🇸🇬 CN-SG_87, server: n17.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 143073:Cz8aOi, obfs-param: download.windowsupdate.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -71,6 +78,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -107,6 +121,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -143,6 +164,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
   - name: 📲 电报信息
     type: select
     proxies:
@@ -178,6 +206,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -213,6 +248,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -248,6 +290,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -284,6 +333,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -336,6 +392,13 @@ proxy-groups:
       - 🇨🇳 馃嚬馃嚰TW_8233
       - 🇸🇬 馃嚫馃嚞SG_7969 | 8.19Mb
       - 🇺🇸 馃嚭馃嚫US_12031 |17.23Mb
+      - 🇫🇷 法国
+      - ‪捷克
+      - 🇺🇸 美国
+      - CZ_130
+      - 🇭🇰 CN-HK_110
+      - 🇭🇰 CN-HK_91
+      - 🇸🇬 CN-SG_87
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
