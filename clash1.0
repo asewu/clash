@@ -5,413 +5,405 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK_4600 |23.65Mb, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Pool_🏁ZZ_391, server: 138.199.16.137, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_🏁ZZ_397, server: 138.199.16.137, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇸 Pool_🇺🇸US_356, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: Pool_🏁ZZ_394, server: 138.199.16.137, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 Pool_🇺🇸US_318, server: 198.8.92.84, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🏁ZZ_395, server: 138.199.16.137, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: Pool_🏁ZZ_402, server: 138.199.16.137, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇫🇷 FR_160, server: 51.75.141.238, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: PkaS32tULDz4}
-  - {name: 🇺🇸 Pool_🇺🇸US_300, server: 143.244.57.99, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: Pool_🏁ZZ_398, server: 138.199.16.137, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_🏁ZZ_404, server: 138.199.16.137, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_🇺🇸US_301, server: 143.244.57.99, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool_🏁ZZ_401, server: 138.199.16.137, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🏁ZZ_399, server: 138.199.16.137, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: Pool__06, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲12（感谢关注youtube：8度科技）, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 葡萄牙 里斯本（感谢关注youtube：8度科技）, server: 185.180.14.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）, server: 143.244.57.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 克罗地亚（感谢关注youtube：8度科技）, server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国05（感谢关注youtube：8度科技）, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: SS12, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: _15 |24.24Mb, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港_367, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 香港, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 4, server: 107.181.177.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 香港_4333, server: 118.107.244.111, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇮🇹 Pool_意大利_2567 |10.78Mb, server: 87.101.94.213, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: SS63, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 IT 意大利Rome 2, server: 87.101.94.213, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇭🇰 香港_4600, server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 United States (from misakanode.cf), server: hk10-gray.dukou.info, port: 8310, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk10-gray.dukou.info}
-  - {name: 🇺🇸 United States (from misakanode.cf) 2, server: hk11-5423.dukouplan3.dev, port: 8011, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk11-5423.dukouplan3.dev}
-  - {name: 🇭🇰 Hong Kong (from misakanode.cf), server: shanghai-router2-hk4-5478.dukou.info, port: 8304, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: shanghai-router2-hk4-5478.dukou.info}
-  - {name: 🇭🇰 Hong Kong (from misakanode.cf) 2, server: hk-route2-azure-hk8.dukou.info, port: 8308, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk-route2-azure-hk8.dukou.info}
-  - {name: 🇨🇳 Taiwan (from misakanode.cf), server: tw6-5641.dukouplan3.dev, port: 5306, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: tw6-5641.dukouplan3.dev}
-  - {name: 🇺🇸 United States (from misakanode.cf) 3, server: 120.232.174.117, port: 21830, type: vmess, uuid: 943c710e-273c-4a48-b52c-8ab43049a08b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇸🇬 Singapore (from misakanode.cf), server: sg-cn-hk-relay-4-40e978.dukou.info, port: 9304, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-4-40e978.dukou.info}
-  - {name: 🇨🇳 Taiwan (from misakanode.cf) 2, server: tw7-5756.dukouplan3.dev, port: 5307, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: tw7-5756.dukouplan3.dev}
-  - {name: 🇨🇳 Taiwan (from misakanode.cf) 3, server: tw4-5545.dukouplan3.dev, port: 5304, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: tw4-5545.dukouplan3.dev}
-  - {name: 🇭🇰 Hong Kong (from misakanode.cf) 3, server: hk-cnrelay-13-138465.dukou.info, port: 8313, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk-cnrelay-13-138465.dukou.info}
-  - {name: 🇸🇬 Singapore (from misakanode.cf) 2, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-5-51f087.dukou.info}
-  - {name: 🇸🇬 Singapore (from misakanode.cf) 3, server: sg-cn-relay-7-74812.dukou.info, port: 9307, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-relay-7-74812.dukou.info}
-  - {name: 🇭🇰 Hong Kong (from misakanode.cf) 4, server: 053.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 5efe4474-ed12-442a-82d5-5e31f2e4bbf2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 053.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 Hong Kong (from misakanode.cf) 5, server: 053.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 5efe4474-ed12-442a-82d5-5e31f2e4bbf2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 053.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 Hong Kong (from misakanode.cf) 6, server: 060.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 5efe4474-ed12-442a-82d5-5e31f2e4bbf2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 060.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: Pool_🇮🇳IN_193, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇮🇳IN_192, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 US_327, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_331, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
+  - {name: 🇺🇸 US_339, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_330, server: 154.17.2.217, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_333, server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
+  - {name: 🇺🇸 US_304, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_334, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
+  - {name: 🇺🇸 US_337, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_347, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: Pool__03, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_332, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_335, server: 154.17.5.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_338, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_323, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: _02, server: 154.17.2.142, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_341, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_299, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_315, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_302, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
+  - {name: 🇺🇸 United States (from misakanode.cf), server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 United States (from misakanode.cf) 2, server: 185.242.5.147, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 192.111.134.212, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）, server: 172.241.114.87, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）, server: 87.101.94.213, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）, server: 82.102.26.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 捷克 布拉格（感谢关注youtube：8度科技）, server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 捷克 布拉格（感谢关注youtube：8度科技） 2, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2, server: 185.242.5.147, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4, server: 185.242.5.147, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5, server: 185.242.5.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CA（感谢关注youtube：8度科技）, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇸🇬 新加坡（感谢关注youtube：8度科技）, server: 185.128.24.34, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7, server: 185.242.5.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 US（感谢关注youtube：8度科技）, server: c.ddvsmvbfnbsde.tk, port: 80, type: vmess, uuid: 2ca94067-30de-4aa8-b98d-a679847a9d0a, alterId: 1, cipher: auto, tls: true}
+  - {name: 未知地区（钱科技分享0821, server: c.ddvsmvbfnbsde.tk, port: 80, type: vmess, uuid: 2ca94067-30de-4aa8-b98d-a679847a9d0a, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇺🇸 洛杉矶（钱科技分享0821, server: 185.242.5.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 洛杉矶（钱科技分享0821 2, server: 185.242.5.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 洛杉矶（钱科技分享0821 3, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 洛杉矶（钱科技分享0821 4, server: 185.242.5.147, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 洛杉矶（钱科技分享0821 5, server: 185.242.5.147, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CA（钱科技分享0821, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -434,52 +426,51 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK_4600 |23.65Mb
-      - Pool_🏁ZZ_391
-      - Pool_🏁ZZ_397
-      - 🇺🇸 Pool_🇺🇸US_356
-      - Pool_🏁ZZ_394
-      - 🇺🇸 Pool_🇺🇸US_318
-      - Pool_🏁ZZ_395
-      - Pool_🏁ZZ_402
-      - 🇫🇷 FR_160
-      - 🇺🇸 Pool_🇺🇸US_300
-      - Pool_🏁ZZ_398
-      - Pool_🏁ZZ_404
-      - 🇺🇸 Pool_🇺🇸US_301
-      - Pool_🏁ZZ_401
-      - Pool_🏁ZZ_399
-      - Pool__06
-      - 欧洲12（感谢关注youtube：8度科技）
-      - 葡萄牙 里斯本（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 欧弗兰帕克（感谢关注youtube：8度科技）
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇬🇧 英国05（感谢关注youtube：8度科技）
-      - SS12
-      - _15 |24.24Mb
-      - 🇭🇰 香港_367
-      - 🇭🇰 香港
-      - 🇺🇸 美国 4
-      - 🇭🇰 香港_4333
-      - 🇮🇹 Pool_意大利_2567 |10.78Mb
-      - SS63
-      - 🇮🇹 IT 意大利Rome 2
-      - 🇭🇰 香港_4600
+      - Pool_🇮🇳IN_193
+      - Pool_🇮🇳IN_192
+      - 🇺🇸 US_327
+      - 🇺🇸 US_331
+      - 🇺🇸 US_339
+      - 🇺🇸 US_330
+      - 🇺🇸 US_333
+      - 🇺🇸 US_304
+      - 🇺🇸 US_334
+      - 🇺🇸 US_337
+      - 🇺🇸 US_347
+      - Pool__03
+      - 🇺🇸 US_332
+      - 🇺🇸 US_335
+      - 🇺🇸 US_338
+      - 🇺🇸 US_323
+      - _02
+      - 🇺🇸 US_341
+      - 🇺🇸 US_299
+      - 🇺🇸 US_315
+      - 🇺🇸 US_302
       - 🇺🇸 United States (from misakanode.cf)
       - 🇺🇸 United States (from misakanode.cf) 2
-      - 🇭🇰 Hong Kong (from misakanode.cf)
-      - 🇭🇰 Hong Kong (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf)
-      - 🇺🇸 United States (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf)
-      - 🇨🇳 Taiwan (from misakanode.cf) 2
-      - 🇨🇳 Taiwan (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 3
-      - 🇸🇬 Singapore (from misakanode.cf) 2
-      - 🇸🇬 Singapore (from misakanode.cf) 3
-      - 🇭🇰 Hong Kong (from misakanode.cf) 4
-      - 🇭🇰 Hong Kong (from misakanode.cf) 5
-      - 🇭🇰 Hong Kong (from misakanode.cf) 6
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 罗马（感谢关注youtube：8度科技）
+      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技）
+      - 捷克 布拉格（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 5
+      - CA（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 6
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 7
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 未知地区（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821
+      - 🇺🇸 洛杉矶（钱科技分享0821 2
+      - 🇺🇸 洛杉矶（钱科技分享0821 3
+      - 🇺🇸 洛杉矶（钱科技分享0821 4
+      - 🇺🇸 洛杉矶（钱科技分享0821 5
+      - CA（钱科技分享0821
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2394,6 +2385,7 @@ rules:
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
  - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
+ - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
  - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
