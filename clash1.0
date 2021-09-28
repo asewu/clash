@@ -5,509 +5,757 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 安徽省联通 39, server: 42.157.8.162, port: 46006, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 +HK_114+@WangCai_1, server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 16, server: 192.169.99.15, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 232, server: 192.169.99.16, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 132, server: 192.169.99.11, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 129, server: 192.169.99.9, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 +SG_174+@WangCai_1, server: 192.169.112.174, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 194, server: 139.99.68.127, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 +SG_177+@WangCai_1, server: 192.169.112.177, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 35, server: 139.99.120.5, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 195, server: 139.99.68.78, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 +SG_165+@WangCai_1, server: 192.169.112.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 +SG_166+@WangCai_1, server: 192.169.112.166, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 +SG_182+@WangCai_1, server: 192.169.112.182, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 113, server: 139.99.123.171, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 147, server: 139.99.122.148, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 29, server: 139.99.8.167, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 131, server: 139.99.120.234, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 136, server: 139.99.9.51, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 182, server: 192.169.112.167, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 +SG_173+@WangCai_1, server: 192.169.112.173, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 5, server: 192.169.108.174, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 106, server: 192.169.108.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 1, server: 192.169.108.171, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 96, server: 192.169.108.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 97, server: 192.169.108.168, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 +SG_169+@WangCai_1, server: 192.169.112.169, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 +SG_170+@WangCai_1, server: 192.169.112.170, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 +SG_167+@WangCai_1, server: 192.169.112.167, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇳 馃嚚馃嚦CN_2046, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇭🇰 馃嚟馃嚢HK_5526, server: 18.162.143.33, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.143.33}}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11502, server: 27.131.164.100, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11515, server: 27.131.164.100, port: 50225, type: ss, cipher: aes-256-gcm, password: J2M953QbkCvvzx3vYWdyBQ4K}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733, server: kr1.np.qjnodeip.xyz, port: 80, type: vmess, uuid: 3a7d989d-56ab-4f06-90f0-2bc06b79ba0b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: kr1.np.qjnodeip.xyz}}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11474, server: 27.131.164.100, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11478, server: 27.131.164.100, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11509, server: 27.131.164.100, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11482, server: 27.131.164.100, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11776, server: 27.131.164.100, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 🇺🇸 馃嚭馃嚫US_13274, server: 192.169.112.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11473, server: 27.131.164.100, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667, server: c32s4.jamjams.net, port: 26813, type: vmess, uuid: e3f9279a-5037-447b-870c-8d512c32f979, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11507, server: 27.131.164.100, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇹🇭 馃嚬馃嚟TH_11696, server: 27.131.164.100, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇨🇳 馃嚚馃嚦CN_2114, server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 馃嚭馃嚫US_12891, server: 192.169.112.171, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 馃嚭馃嚫US_15274, server: 192.169.112.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 馃嚭馃嚫US_13531, server: 192.169.112.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 139.99.122.148:8090, server: 139.99.122.148, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 27.131.164.100:37559, server: 27.131.164.100, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: 27.131.164.100:38747, server: 27.131.164.100, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 27.131.164.100:33998, server: 27.131.164.100, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 27.131.164.100:39556, server: 27.131.164.100, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 27.131.164.100:47027, server: 27.131.164.100, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 192.169.112.168:8091, server: 192.169.112.168, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 27.131.164.100:49202, server: 27.131.164.100, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 🇭🇰 Pool_🇭🇰HK_5577, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_10950, server: 192.169.112.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: m3.mogu66.com:226, server: m3.mogu66.com, port: 226, type: ss, cipher: aes-128-gcm, password: EkZk5PG1}
+  - {name: m3.mogu66.com:222, server: m3.mogu66.com, port: 222, type: ss, cipher: aes-128-gcm, password: M892FnT4}
+  - {name: m3.mogu66.com:217, server: m3.mogu66.com, port: 217, type: ss, cipher: aes-128-gcm, password: hVParClF}
+  - {name: m3.mogu66.com:206, server: m3.mogu66.com, port: 206, type: ss, cipher: aes-128-gcm, password: BpD5FyN7}
+  - {name: m3.mogu66.com:208, server: m3.mogu66.com, port: 208, type: ss, cipher: aes-128-gcm, password: 5JNB5HE0}
+  - {name: m3.mogu66.com:204, server: m3.mogu66.com, port: 204, type: ss, cipher: aes-128-gcm, password: R7QA6az7}
+  - {name: m3.mogu66.com:212, server: m3.mogu66.com, port: 212, type: ss, cipher: aes-128-gcm, password: uBoV1PmD}
+  - {name: m3.mogu66.com:205, server: m3.mogu66.com, port: 205, type: ss, cipher: aes-128-gcm, password: oKiakgPA}
+  - {name: m8.mogu66.com:243, server: m8.mogu66.com, port: 243, type: ss, cipher: aes-128-gcm, password: EGXQgOJV}
+  - {name: m3.mogu66.com:245, server: m3.mogu66.com, port: 245, type: ss, cipher: aes-128-gcm, password: nRJKmVmf}
+  - {name: m8.mogu66.com:204, server: m8.mogu66.com, port: 204, type: ss, cipher: aes-128-gcm, password: R7QA6az7}
+  - {name: m8.mogu66.com:208, server: m8.mogu66.com, port: 208, type: ss, cipher: aes-128-gcm, password: 5JNB5HE0}
+  - {name: m3.mogu66.com:243, server: m3.mogu66.com, port: 243, type: ss, cipher: aes-128-gcm, password: EGXQgOJV}
+  - {name: m3.mogu66.com:213, server: m3.mogu66.com, port: 213, type: ss, cipher: aes-128-gcm, password: LfOCU6Fy}
+  - {name: m8.mogu66.com:206, server: m8.mogu66.com, port: 206, type: ss, cipher: aes-128-gcm, password: BpD5FyN7}
+  - {name: m3.mogu66.com:220, server: m3.mogu66.com, port: 220, type: ss, cipher: aes-128-gcm, password: DmcdyPv9}
+  - {name: m3.mogu66.com:229, server: m3.mogu66.com, port: 229, type: ss, cipher: aes-128-gcm, password: pP0yVSrJ}
+  - {name: m8.mogu66.com:245, server: m8.mogu66.com, port: 245, type: ss, cipher: aes-128-gcm, password: nRJKmVmf}
+  - {name: 🇸🇬 Singapore - 234, server: 192.169.112.182, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: m8.mogu66.com:221, server: m8.mogu66.com, port: 221, type: ss, cipher: aes-128-gcm, password: R6dCeQQk}
+  - {name: m8.mogu66.com:217, server: m8.mogu66.com, port: 217, type: ss, cipher: aes-128-gcm, password: hVParClF}
+  - {name: m3.mogu66.com:231, server: m3.mogu66.com, port: 231, type: ss, cipher: aes-128-gcm, password: UVG9Ce6r}
+  - {name: m3.mogu66.com:202, server: m3.mogu66.com, port: 202, type: ss, cipher: aes-128-gcm, password: dzYGsIse}
+  - {name: m8.mogu66.com:216, server: m8.mogu66.com, port: 216, type: ss, cipher: aes-128-gcm, password: pWKf5aUA}
+  - {name: m3.mogu66.com:215, server: m3.mogu66.com, port: 215, type: ss, cipher: aes-128-gcm, password: gXeeBeMf}
+  - {name: m3.mogu66.com:241, server: m3.mogu66.com, port: 241, type: ss, cipher: aes-128-gcm, password: 7gCk5zVC}
+  - {name: m8.mogu66.com:232, server: m8.mogu66.com, port: 232, type: ss, cipher: aes-128-gcm, password: dxzROmKx}
+  - {name: m3.mogu66.com:233, server: m3.mogu66.com, port: 233, type: ss, cipher: aes-128-gcm, password: 5RAITZFc}
+  - {name: Tokyo - 3114, server: 192.169.108.181, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: m8.mogu66.com:215, server: m8.mogu66.com, port: 215, type: ss, cipher: aes-128-gcm, password: gXeeBeMf}
+  - {name: m8.mogu66.com:212, server: m8.mogu66.com, port: 212, type: ss, cipher: aes-128-gcm, password: uBoV1PmD}
+  - {name: m8.mogu66.com:237, server: m8.mogu66.com, port: 237, type: ss, cipher: aes-128-gcm, password: WvZX9VqX}
+  - {name: Frankfurt - 3724, server: 104.166.155.84, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: m3.mogu66.com:201, server: m3.mogu66.com, port: 201, type: ss, cipher: aes-128-gcm, password: RBKWOu10}
+  - {name: Toronto - 1097, server: 198.57.27.113, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: London - 4024, server: 193.118.60.176, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: London - 2997, server: 193.118.60.175, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 Singapore - 1293, server: 192.169.112.180, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: New York - 2734, server: 169.197.141.24, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Toronto - 2312, server: 198.57.27.36, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Gravelines - 329, server: 149.202.82.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 Singapore - 685, server: 192.169.112.181, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: m8.mogu66.com:205, server: m8.mogu66.com, port: 205, type: ss, cipher: aes-128-gcm, password: oKiakgPA}
+  - {name: m8.mogu66.com:230, server: m8.mogu66.com, port: 230, type: ss, cipher: aes-128-gcm, password: LX8nbUE6}
+  - {name: New York - 73, server: 169.197.141.80, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Ashburn - 2963, server: 38.86.135.180, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: London - 2294, server: 193.118.60.177, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Toronto - 2669, server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Toronto - 2373, server: 134.195.196.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: London - 3496, server: 193.118.60.180, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Toronto - 3003, server: 198.57.27.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Toronto - 3845, server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Frankfurt - 1513, server: 104.166.155.85, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Gravelines - 1877, server: 149.202.82.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: m8.mogu66.com:225, server: m8.mogu66.com, port: 225, type: ss, cipher: aes-128-gcm, password: idbXcqAD}
+  - {name: Toronto - 894, server: 198.57.27.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Toronto - 1058, server: 134.195.196.179, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: London - 221, server: 193.118.60.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: London - 1321, server: 193.118.60.179, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: m8.mogu66.com:228, server: m8.mogu66.com, port: 228, type: ss, cipher: aes-128-gcm, password: hTXTknqL}
+  - {name: Frankfurt - 1765, server: 104.166.155.86, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Pool_🇦🇹AT_229, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042, server: 120.232.41.3, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: 🇺🇸 US_17625, server: 192.169.112.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_12685, server: 192.169.112.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_14042, server: 192.169.112.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇹🇭 TH_11785, server: 27.131.164.100, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 🇹🇭 TH_11772, server: 27.131.164.100, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 🇹🇭 TH_11660, server: 27.131.164.94, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 🇹🇭 TH_11818, server: 27.131.164.100, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 🇹🇭 TH_11805, server: 27.131.164.100, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: GB_5146, server: 193.118.60.182, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_18770, server: 192.169.112.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: GB_4770, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇹🇭 TH_11809, server: 27.131.164.100, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸 US_17538, server: 38.107.226.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_19619, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Pool_🇬🇧GB_5138, server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 Pool_🇺🇸US_17004, server: 64.44.42.162, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: ZZ_19859, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: GB_4797, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Pool_🇬🇧GB_5170, server: 5.226.139.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: ZZ_20193, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_20492, server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: GB_5229, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_14294, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_19439, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 DE_2601, server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_20322, server: 134.195.196.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -530,64 +778,95 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 安徽省联通 39
-      - 🇭🇰 +HK_114+@WangCai_1
-      - 16
-      - 232
-      - 132
-      - 129
-      - 🇸🇬 +SG_174+@WangCai_1
-      - 194
-      - 🇸🇬 +SG_177+@WangCai_1
-      - 35
-      - 195
-      - 🇸🇬 +SG_165+@WangCai_1
-      - 🇸🇬 +SG_166+@WangCai_1
-      - 🇸🇬 +SG_182+@WangCai_1
-      - 113
-      - 147
-      - 29
-      - 131
-      - 136
-      - 182
-      - 🇸🇬 +SG_173+@WangCai_1
-      - 5
-      - 106
-      - 1
-      - 96
-      - 97
-      - 🇸🇬 +SG_169+@WangCai_1
-      - 🇸🇬 +SG_170+@WangCai_1
-      - 🇸🇬 +SG_167+@WangCai_1
-      - 🇨🇳 馃嚚馃嚦CN_2046
-      - 🇭🇰 馃嚟馃嚢HK_5526
-      - 🇹🇭 馃嚬馃嚟TH_11502
-      - 🇹🇭 馃嚬馃嚟TH_11515
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_18733
-      - 🇹🇭 馃嚬馃嚟TH_11474
-      - 🇹🇭 馃嚬馃嚟TH_11478
-      - 🇹🇭 馃嚬馃嚟TH_11509
-      - 🇹🇭 馃嚬馃嚟TH_11482
-      - 🇹🇭 馃嚬馃嚟TH_11776
-      - 🇺🇸 馃嚭馃嚫US_13274
-      - 🇹🇭 馃嚬馃嚟TH_11473
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_1667
-      - 🇹🇭 馃嚬馃嚟TH_11507
-      - 🇹🇭 馃嚬馃嚟TH_11696
-      - 🇨🇳 馃嚚馃嚦CN_2114
-      - 🇺🇸 馃嚭馃嚫US_12891
-      - 🇺🇸 馃嚭馃嚫US_15274
-      - 🇺🇸 馃嚭馃嚫US_13531
-      - 139.99.122.148:8090
-      - 27.131.164.100:37559
-      - 27.131.164.100:38747
-      - 27.131.164.100:33998
-      - 27.131.164.100:39556
-      - 27.131.164.100:47027
-      - 192.169.112.168:8091
-      - 27.131.164.100:49202
-      - 🇭🇰 Pool_🇭🇰HK_5577
-      - 🇺🇸 US_10950
+      - m3.mogu66.com:226
+      - m3.mogu66.com:222
+      - m3.mogu66.com:217
+      - m3.mogu66.com:206
+      - m3.mogu66.com:208
+      - m3.mogu66.com:204
+      - m3.mogu66.com:212
+      - m3.mogu66.com:205
+      - m8.mogu66.com:243
+      - m3.mogu66.com:245
+      - m8.mogu66.com:204
+      - m8.mogu66.com:208
+      - m3.mogu66.com:243
+      - m3.mogu66.com:213
+      - m8.mogu66.com:206
+      - m3.mogu66.com:220
+      - m3.mogu66.com:229
+      - m8.mogu66.com:245
+      - 🇸🇬 Singapore - 234
+      - m8.mogu66.com:221
+      - m8.mogu66.com:217
+      - m3.mogu66.com:231
+      - m3.mogu66.com:202
+      - m8.mogu66.com:216
+      - m3.mogu66.com:215
+      - m3.mogu66.com:241
+      - m8.mogu66.com:232
+      - m3.mogu66.com:233
+      - Tokyo - 3114
+      - m8.mogu66.com:215
+      - m8.mogu66.com:212
+      - m8.mogu66.com:237
+      - Frankfurt - 3724
+      - m3.mogu66.com:201
+      - Toronto - 1097
+      - London - 4024
+      - London - 2997
+      - 🇸🇬 Singapore - 1293
+      - New York - 2734
+      - Toronto - 2312
+      - Gravelines - 329
+      - 🇸🇬 Singapore - 685
+      - m8.mogu66.com:205
+      - m8.mogu66.com:230
+      - New York - 73
+      - Ashburn - 2963
+      - London - 2294
+      - Toronto - 2669
+      - Toronto - 2373
+      - London - 3496
+      - Toronto - 3003
+      - Toronto - 3845
+      - Frankfurt - 1513
+      - Gravelines - 1877
+      - m8.mogu66.com:225
+      - Toronto - 894
+      - Toronto - 1058
+      - London - 221
+      - London - 1321
+      - m8.mogu66.com:228
+      - Frankfurt - 1765
+      - Pool_🇦🇹AT_229
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_2042
+      - 🇺🇸 US_17625
+      - 🇺🇸 US_12685
+      - 🇺🇸 US_14042
+      - 🇹🇭 TH_11785
+      - 🇹🇭 TH_11772
+      - 🇹🇭 TH_11660
+      - 🇹🇭 TH_11818
+      - 🇹🇭 TH_11805
+      - GB_5146
+      - 🇺🇸 US_18770
+      - GB_4770
+      - 🇹🇭 TH_11809
+      - 🇺🇸 US_17538
+      - ZZ_19619
+      - Pool_🇬🇧GB_5138
+      - 🇺🇸 Pool_🇺🇸US_17004
+      - ZZ_19859
+      - GB_4797
+      - Pool_🇬🇧GB_5170
+      - ZZ_20193
+      - ZZ_20492
+      - GB_5229
+      - 🇺🇸 US_14294
+      - ZZ_19439
+      - 🇩🇪 DE_2601
+      - ZZ_20322
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
